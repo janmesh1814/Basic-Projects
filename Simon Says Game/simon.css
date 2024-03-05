@@ -1,0 +1,61 @@
+body {
+    text-align: center;
+    /* background: url(aboutus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 7px solid black;
+    margin: 2.5rem;
+}
+
+.red {
+    background-color: rgb(129, 9, 79);
+}
+
+.green {
+    background-color: rgb(13, 105, 98);
+}
+
+.yellow {
+    background-color: rgb(194, 134, 5);
+}
+
+.blue {
+    background-color: rgb(61, 198, 229);
+}
+
+.flash {
+    background-color: white;
+}
+
+.userflash {
+    background-color: black;
+}
+
+.outer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 270px;
+    margin-right: 270px;
+    background-color: rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    border-radius: 23px;
+    /* width: 700px; */
+}
+
+.outer:hover {
+    box-shadow: 3px 3px 5px 5px gray;
+    box-shadow: -3px -3px 5px 5px gray;
+}
